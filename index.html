@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Maple Ridge Durga Puja</title>
+<meta name="description" content="19th year Shri Shri Durga Puja hosted by Anita Roy Chowdhury and Family in Maple Ridge, BC. October 16 to 19, 2026.">
+<meta property="og:title" content="19th Year Shri Shri Durga Puja · Maple Ridge">
+<meta property="og:description" content="Join us October 16 to 19, 2026 at 21186 Wicklund Ave, Maple Ridge, BC.">
+<meta property="og:image" content="assets/idol.jpg">
+<meta name="theme-color" content="#7c0a10">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 26'%3E%3Cpath d='M17 2c4 5 4 12 0 18-4-6-4-13 0-18z' fill='%23b3121b'/%3E%3Cpath d='M17 20c-6-1-11-5-13-12 6 1 11 5 13 12zM17 20c6-1 11-5 13-12-6 1-11 5-13 12z' fill='%23c8902a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Tiro+Bangla:ital@0;1&family=Mukta:wght@400;500;700&family=Courgette&display=swap">
+<style>
+/* Layout: a printed invitation unfolding down the page — ivory card stock, sindoor red, shola-white idol, gold leaf, marigold garlands at the edges */
+:root{
+  --paper:#fbf3df; --paper-2:#f5e7c4; --ink:#3a1410; --ink-soft:#6e3b2c;
+  --sindoor:#b3121b; --sindoor-deep:#7c0a10; --gold:#c8902a; --gold-soft:#e9c773;
+  --leaf:#1f5a2e; --marigold:#f29a0f; --on-red:#fff4dc; --line:#e2c78d;
+  --f-display:"Rozha One","Georgia",serif;
+  --f-script:"Courgette","Brush Script MT",cursive;
+  --f-bn:"Tiro Bangla","Noto Serif Bengali","Georgia",serif;
+  --f-body:"Mukta","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#1d0b09; --paper-2:#2a110d; --ink:#f7e6c4; --ink-soft:#d5b88c;
+  --sindoor:#e2453f; --sindoor-deep:#8f141a; --gold:#e3b04f; --gold-soft:#8a6420;
+  --leaf:#7cc28c; --marigold:#ffb23a; --on-red:#fff4dc; --line:#5a3218; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#1d0b09; --paper-2:#2a110d; --ink:#f7e6c4; --ink-soft:#d5b88c;
+  --sindoor:#e2453f; --sindoor-deep:#8f141a; --gold:#e3b04f; --gold-soft:#8a6420;
+  --leaf:#7cc28c; --marigold:#ffb23a; --on-red:#fff4dc; --line:#5a3218; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;overflow-x:hidden}
+a{color:var(--sindoor)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+h1,h2,h3{text-wrap:balance;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px}
+
+/* lotus border strip */
+.border{height:34px;background-color:var(--sindoor-deep);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='34'%3E%3Cg fill='%23e9c773'%3E%3Cpath d='M22 8c3 4 3 9 0 14-3-5-3-10 0-14z'/%3E%3Cpath d='M22 22c-4-1-8-4-9-9 4 0 8 3 9 9zM22 22c4-1 8-4 9-9-4 0-8 3-9 9z' opacity='.8'/%3E%3Crect x='12' y='24' width='20' height='1.6' rx='.8'/%3E%3C/g%3E%3C/svg%3E");
+  background-position:center;border-block:3px solid var(--gold)}
+
+/* garlands down both edges (decorative) */
+.garland{position:absolute;top:0;width:26px;height:min(1500px,100%);pointer-events:none;
+  background:radial-gradient(circle at 50% 50%,var(--marigold) 0 9px,transparent 10px) 0 0/26px 22px repeat-y,
+             radial-gradient(circle at 50% 50%,#e4560f 0 8px,transparent 9px) 0 11px/26px 22px repeat-y;
+  -webkit-mask:linear-gradient(#000 80%,transparent);mask:linear-gradient(#000 80%,transparent);opacity:.95}
+.garland.l{left:6px}.garland.r{right:6px}
+@media (max-width:640px){.garland{width:16px;background-size:16px 16px;opacity:.75}}
+
+/* HERO */
+.hero{position:relative;padding-block:34px 56px;text-align:center;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(60% 45% at 50% 38%,color-mix(in srgb,var(--gold-soft) 45%,transparent),transparent 70%)}
+.hero .wrap{position:relative}
+.eyebrow{font-family:var(--f-bn);color:var(--sindoor);font-size:1.15rem;letter-spacing:.04em}
+.year{font-family:var(--f-script);color:var(--leaf);font-size:clamp(1.5rem,4vw,2.3rem);margin-top:6px}
+.year sup{font-size:.55em}
+h1.title{font-family:var(--f-display);font-weight:400;color:var(--sindoor);
+  font-size:clamp(2.7rem,9vw,6.2rem);line-height:.98;letter-spacing:-.01em;margin-top:4px;
+  text-shadow:0 2px 0 color-mix(in srgb,var(--gold) 45%,transparent)}
+.title .bn{display:block;font-family:var(--f-bn);font-size:.42em;color:var(--gold);margin-top:10px;letter-spacing:.02em}
+
+.altar{margin:34px auto 0;max-width:720px;position:relative}
+.arch{border-radius:48% 48% 18px 18px / 30% 30% 18px 18px;overflow:hidden;
+  border:6px solid var(--gold);box-shadow:0 0 0 3px var(--paper),0 0 0 6px var(--sindoor),0 24px 60px -20px rgba(80,10,10,.55);
+  background:var(--sindoor-deep)}
+.arch img{display:block;width:100%;height:auto;aspect-ratio:890/640;object-fit:cover}
+.diya{position:absolute;bottom:-14px;width:54px;height:40px}
+.diya.l{left:-8px}.diya.r{right:-8px}
+.flame{transform-origin:50% 100%;animation:flick 1.6s ease-in-out infinite}
+@keyframes flick{0%,100%{transform:scale(1) rotate(-2deg)}50%{transform:scale(1.08,1.15) rotate(3deg)}}
+
+.countdown{margin:46px auto 0;display:inline-flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:stretch}
+.cd-label{flex-basis:100%;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);font-weight:700}
+.cd{min-width:78px;padding:10px 12px;background:var(--sindoor);color:var(--on-red);border-radius:12px;
+  border:2px solid var(--gold);font-variant-numeric:tabular-nums}
+.cd b{display:block;font-family:var(--f-display);font-weight:400;font-size:2rem;line-height:1}
+.cd span{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;opacity:.9}
+.cd-live{font-family:var(--f-display);font-size:1.6rem;color:var(--sindoor)}
+
+/* divider */
+.lotus-rule{display:flex;align-items:center;gap:14px;justify-content:center;margin:0 auto;max-width:520px;color:var(--gold)}
+.lotus-rule::before,.lotus-rule::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,transparent,var(--gold))}
+.lotus-rule::after{background:linear-gradient(270deg,transparent,var(--gold))}
+
+section{padding-block:64px}
+.sec-head{text-align:center;margin-bottom:34px}
+.sec-head h2{font-family:var(--f-display);font-weight:400;font-size:clamp(2rem,5vw,3rem);color:var(--sindoor);line-height:1.1}
+.sec-head .bn{font-family:var(--f-bn);color:var(--gold);font-size:1.1rem;display:block;margin-bottom:4px}
+.sec-head p{max-width:60ch;margin:12px auto 0;color:var(--ink-soft)}
+
+/* INVITATION */
+.invite{background:var(--paper-2);border-block:1px solid var(--line)}
+.invite-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.invite-text{font-size:1.25rem;line-height:1.7;max-width:34ch}
+.invite-text em{font-family:var(--f-display);font-style:normal;color:var(--sindoor);font-size:1.15em}
+.host{background:var(--paper);border:2px solid var(--gold);border-radius:18px;padding:28px;position:relative;min-width:0}
+.host::before{content:"";position:absolute;inset:7px;border:1px dashed var(--line);border-radius:12px;pointer-events:none}
+.host h3{font-family:var(--f-script);color:var(--leaf);font-size:1.75rem;font-weight:400;line-height:1.2}
+.host dl{margin:18px 0 0;display:grid;gap:14px}
+.host dt{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);font-weight:700}
+.host dd{margin:2px 0 0;font-size:1.05rem;user-select:text}
+.host .row{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;position:relative}
+.btn{font:inherit;font-weight:700;font-size:.95rem;border-radius:999px;padding:9px 18px;cursor:pointer;text-decoration:none;
+  border:2px solid var(--sindoor);background:var(--sindoor);color:var(--on-red);display:inline-flex;align-items:center;gap:8px}
+.btn.ghost{background:transparent;color:var(--sindoor)}
+.btn:hover{filter:brightness(1.08)}
+.copied{font-size:.85rem;color:var(--leaf);align-self:center}
+
+/* SCHEDULE */
+.days{display:grid;gap:18px}
+.day{display:grid;grid-template-columns:150px 1fr 1.1fr;gap:0;border:2px solid var(--line);border-radius:18px;overflow:hidden;background:var(--paper)}
+.day .date{background:var(--sindoor);color:var(--on-red);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px 10px;text-align:center;position:relative}
+.day .date::after{content:"";position:absolute;right:-1px;top:0;bottom:0;width:10px;
+  background:radial-gradient(circle at 100% 50%,var(--paper) 0 5px,transparent 6px) 0 0/10px 16px repeat-y}
+.day .wk{font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;opacity:.85}
+.day .dn{font-family:var(--f-display);font-size:2.6rem;line-height:1}
+.day .mo{font-size:.85rem;letter-spacing:.12em;text-transform:uppercase}
+.day .tithi{padding:20px 22px;border-right:1px solid var(--line);min-width:0}
+.tithi h3{font-family:var(--f-display);font-weight:400;font-size:1.65rem;color:var(--leaf);line-height:1.1}
+.tithi .bn{font-family:var(--f-bn);color:var(--gold);font-size:1rem}
+.tithi p{margin:8px 0 0;color:var(--ink-soft);font-size:.98rem}
+.day .times{padding:20px 22px;display:flex;flex-direction:column;justify-content:center;gap:8px;min-width:0}
+.t{display:flex;gap:10px;align-items:baseline;font-variant-numeric:tabular-nums}
+.t .k{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;width:76px;flex:none}
+.t .v{font-weight:700;font-size:1.1rem}
+.tag{align-self:flex-start;background:var(--sindoor-deep);color:var(--on-red);font-family:var(--f-script);font-size:.98rem;padding:3px 14px;border-radius:999px;border:1px solid var(--gold)}
+.day.today{border-color:var(--gold);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 40%,transparent)}
+.today-pill{display:none;margin-top:8px;background:var(--gold);color:#2b0d07;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:2px 10px;border-radius:999px}
+.day.today .today-pill{display:inline-block}
+.day.past{opacity:.6}
+.note-time{text-align:center;color:var(--ink-soft);font-size:.92rem;margin-top:18px}
+
+@media (max-width:820px){
+  .invite-grid{grid-template-columns:1fr}
+  .day{grid-template-columns:110px 1fr}
+  .day .times{grid-column:2;border-top:1px solid var(--line);padding-top:14px}
+  .day .tithi{border-right:0}
+  .day .date{grid-row:span 2}
+}
+@media (max-width:440px){
+  .day{grid-template-columns:86px 1fr}
+  .day .dn{font-size:2rem}
+  .tithi,.day .times{padding:16px}
+  .t .k{width:64px}
+}
+
+/* JOY / rituals */
+.joy{background:var(--sindoor-deep);color:var(--on-red);position:relative;overflow:hidden}
+.joy::before{content:"";position:absolute;inset:0;opacity:.13;pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cg fill='none' stroke='%23fff4dc' stroke-width='1.4'%3E%3Ccircle cx='60' cy='60' r='8'/%3E%3Ccircle cx='60' cy='60' r='20'/%3E%3Cpath d='M60 28c8 10 8 22 0 32-8-10-8-22 0-32zM60 92c8-10 8-22 0-32-8 10-8 22 0 32zM28 60c10-8 22-8 32 0-10 8-22 8-32 0zM92 60c-10-8-22-8-32 0 10 8 22 8 32 0z'/%3E%3Ccircle cx='0' cy='0' r='6'/%3E%3Ccircle cx='120' cy='0' r='6'/%3E%3Ccircle cx='0' cy='120' r='6'/%3E%3Ccircle cx='120' cy='120' r='6'/%3E%3C/g%3E%3C/svg%3E")}
+.joy .wrap{position:relative}
+.joy .sec-head h2{color:var(--on-red)}
+.joy .sec-head .bn{color:var(--gold-soft)}
+.joy .sec-head p{color:color-mix(in srgb,var(--on-red) 80%,transparent)}
+:root .joy .sec-head .bn{color:#e9c773}
+.rituals{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.ritual{border-top:2px solid #e9c773;padding-top:16px;min-width:0}
+.ritual .when{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#e9c773;font-weight:700}
+.ritual h3{font-family:var(--f-display);font-weight:400;font-size:1.55rem;margin-top:4px;line-height:1.15}
+.ritual h3 .bn{font-family:var(--f-bn);font-size:.7em;color:#e9c773;margin-left:6px}
+.ritual p{margin:8px 0 0;font-size:.98rem;color:color-mix(in srgb,#fff4dc 86%,transparent)}
+.ritual svg{width:44px;height:44px;margin-bottom:6px}
+@media (max-width:860px){.rituals{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.rituals{grid-template-columns:1fr}}
+
+/* DHAK */
+.dhak-sec .dhak-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.dhak-copy h2{font-family:var(--f-display);font-weight:400;font-size:clamp(2rem,5vw,3rem);color:var(--sindoor);line-height:1.1}
+.dhak-copy p{color:var(--ink-soft);max-width:44ch}
+.dhak-pad{display:flex;flex-direction:column;align-items:center;gap:16px}
+.dhak-pad{margin:0}
+.dhak-art{width:min(320px,80vw);height:auto;display:block;animation:sway 3.2s ease-in-out infinite;transform-origin:50% 90%}
+@keyframes sway{0%,100%{transform:rotate(-1.5deg)}50%{transform:rotate(1.5deg)}}
+.dhak-pad figcaption{font-family:var(--f-bn);color:var(--gold);font-size:1rem}
+.listen{display:flex;flex-direction:column;gap:6px;margin-top:18px;padding:14px 18px;border:1px dashed var(--line);border-radius:12px;max-width:44ch}
+.listen-k{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);font-weight:700}
+.listen a{font-weight:700;text-decoration:none}
+.listen a:hover{text-decoration:underline}
+@media (max-width:760px){.dhak-sec .dhak-grid{grid-template-columns:1fr;text-align:center}.dhak-copy p,.listen{margin-inline:auto;text-align:left}}
+
+/* GOOD TO KNOW */
+.know{background:var(--paper-2);border-top:1px solid var(--line)}
+.know-list{display:grid;grid-template-columns:repeat(2,1fr);gap:16px 36px;max-width:900px;margin:0 auto;padding:0;list-style:none}
+.know-list li{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start}
+.know-list li::before{content:"";width:18px;height:18px;margin-top:5px;transform:rotate(45deg);background:var(--marigold);border:2px solid var(--sindoor);border-radius:3px}
+.know-list b{color:var(--sindoor)}
+@media (max-width:640px){.know-list{grid-template-columns:1fr}}
+
+footer{text-align:center;padding-block:56px 40px}
+.farewell{font-family:var(--f-bn);font-size:clamp(1.8rem,6vw,3rem);color:var(--sindoor);line-height:1.3}
+.farewell-tr{font-family:var(--f-script);color:var(--leaf);font-size:1.3rem}
+.small{color:var(--ink-soft);font-size:.88rem;margin-top:22px}
+
+/* falling petals */
+#petals{position:fixed;inset:0;pointer-events:none;z-index:5}
+@media (prefers-reduced-motion:reduce){.flame,.dhak-art{animation:none}#petals{display:none}}
+</style>
+<style>
+html{-webkit-text-size-adjust:100%}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+
+<canvas id="petals" aria-hidden="true"></canvas>
+<div class="border" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="garland l" aria-hidden="true"></div><div class="garland r" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="eyebrow">শুভ শারদীয়া · Maple Ridge, British Columbia</div>
+    <div class="year">19<sup>th</sup> Year Celebration of</div>
+    <h1 class="title">Shri Shri Durga Puja<span class="bn">শ্রী শ্রী দুর্গা পূজা</span></h1>
+
+    <div class="altar">
+      <div class="arch"><img src="assets/idol.jpg" alt="Shola-white idol of Maa Durga astride her lion, with Lakshmi, Saraswati, Ganesh and Kartik, against a red backdrop"></div>
+      <svg class="diya l" viewBox="0 0 54 40" aria-hidden="true"><path class="flame" d="M27 2c5 7 5 12 0 16-5-4-5-9 0-16z" fill="#f29a0f"/><path class="flame" d="M27 8c2 4 2 7 0 9-2-2-2-5 0-9z" fill="#ffe07a"/><path d="M4 22h46c-2 9-11 15-23 15S6 31 4 22z" fill="#c8902a"/><path d="M4 22h46" stroke="#7c0a10" stroke-width="2"/></svg>
+      <svg class="diya r" viewBox="0 0 54 40" aria-hidden="true"><path class="flame" d="M27 2c5 7 5 12 0 16-5-4-5-9 0-16z" fill="#f29a0f"/><path class="flame" d="M27 8c2 4 2 7 0 9-2-2-2-5 0-9z" fill="#ffe07a"/><path d="M4 22h46c-2 9-11 15-23 15S6 31 4 22z" fill="#c8902a"/><path d="M4 22h46" stroke="#7c0a10" stroke-width="2"/></svg>
+    </div>
+
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div class="cd-label">Maa arrives for Maha Sasthi in</div>
+      <div class="cd"><b id="cd-d">16</b><span>days</span></div>
+      <div class="cd"><b id="cd-h">00</b><span>hours</span></div>
+      <div class="cd"><b id="cd-m">00</b><span>mins</span></div>
+      <div class="cd"><b id="cd-s">00</b><span>secs</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="lotus-rule" aria-hidden="true"><svg width="34" height="26" viewBox="0 0 34 26"><path d="M17 2c4 5 4 12 0 18-4-6-4-13 0-18z" fill="#b3121b"/><path d="M17 20c-6-1-11-5-13-12 6 1 11 5 13 12zM17 20c6-1 11-5 13-12-6 1-11 5-13 12z" fill="#c8902a"/></svg></div>
+
+<section class="invite" id="invite">
+  <div class="wrap invite-grid">
+    <div>
+      <div class="sec-head" style="text-align:left;margin-bottom:16px"><span class="bn">আমন্ত্রণ</span><h2>You are invited</h2></div>
+      <p class="invite-text">It gives us immense joy to invite you, along with your family and friends, to join us in the sacred celebration of <em>Shri Shri Durga Puja</em> at our residence. For nineteen autumns our home in Maple Ridge has filled with the dhak, the scent of dhuno, and the voices of neighbours who became family.</p>
+    </div>
+    <div class="host">
+      <h3>Anita Roy Chowdhury and Family</h3>
+      <dl>
+        <div><dt>Address</dt><dd>21186 Wicklund Ave, Maple Ridge, BC V2X 3R9<br><small>For GPS, use 21188 Wicklund Ave</small></dd></div>
+        <div><dt>Phone</dt><dd id="phone">604-763-4820</dd></div>
+      </dl>
+      <div class="row">
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=21188+Wicklund+Ave+Maple+Ridge+BC+V2X+3R9" target="_blank" rel="noopener">Open in Maps</a>
+        <button class="btn ghost" id="copyBtn" type="button">Copy phone</button>
+        <span class="copied" id="copied" role="status"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="schedule">
+  <div class="wrap">
+    <div class="sec-head"><span class="bn">পূজার নির্ঘণ্ট</span><h2>Puja Schedule</h2><p>Four days of worship, Bhog and adda, October 16 to 19, 2026.</p></div>
+    <div class="days" id="days">
+      <article class="day" data-date="2026-10-16">
+        <div class="date"><span class="wk">Friday</span><span class="dn">16</span><span class="mo">October</span><span class="today-pill">Today</span></div>
+        <div class="tithi"><h3>Maha Sasthi</h3><div class="bn">মহা ষষ্ঠী</div><p>Bodhon, the awakening. Maa's face is unveiled and the festival begins.</p></div>
+        <div class="times"><div class="t"><span class="k">Evening</span><span class="v">4:30 PM</span></div></div>
+      </article>
+      <article class="day" data-date="2026-10-17">
+        <div class="date"><span class="wk">Saturday</span><span class="dn">17</span><span class="mo">October</span><span class="today-pill">Today</span></div>
+        <div class="tithi"><h3>Maha Saptami</h3><div class="bn">মহা সপ্তমী</div><p>Nabapatrika is bathed and dressed, and the first Pushpanjali is offered.</p></div>
+        <div class="times"><div class="t"><span class="k">Morning</span><span class="v">9:30 – 11:30 AM</span></div><div class="t"><span class="k">Evening</span><span class="v">5:30 PM</span></div></div>
+      </article>
+      <article class="day" data-date="2026-10-18">
+        <div class="date"><span class="wk">Sunday</span><span class="dn">18</span><span class="mo">October</span><span class="today-pill">Today</span></div>
+        <div class="tithi"><h3>Maha Ashtami</h3><div class="bn">মহা অষ্টমী</div><p>The heart of the Puja: Ashtami Anjali in new clothes, and the most crowded Bhog of the year.</p></div>
+        <div class="times"><div class="t"><span class="k">Morning</span><span class="v">9:30 – 11:30 AM</span></div><div class="t"><span class="k">Evening</span><span class="v">5:30 PM</span></div><span class="tag">Kumari Puja &amp; Sandhi Puja</span></div>
+      </article>
+      <article class="day" data-date="2026-10-19">
+        <div class="date"><span class="wk">Monday</span><span class="dn">19</span><span class="mo">October</span><span class="today-pill">Today</span></div>
+        <div class="tithi"><h3>Maha Navami</h3><div class="bn">মহা নবমী</div><p>The last full day with Maa, closing with the sacred fire and a sea of red.</p></div>
+        <div class="times"><div class="t"><span class="k">Morning</span><span class="v">9:30 – 11:30 AM</span></div><div class="t"><span class="k">Evening</span><span class="v">5:00 PM</span></div><span class="tag">Hom &amp; Sindoor Khela</span></div>
+      </article>
+    </div>
+    <p class="note-time">All times Pacific (Maple Ridge local time).</p>
+  </div>
+</section>
+
+<section class="joy" id="joy">
+  <div class="wrap">
+    <div class="sec-head"><span class="bn">আনন্দের পাঁচ দিন</span><h2>The joy of Pujo</h2><p>Far from Kolkata's pandals, the Bengalis of Maple Ridge still keep every ritual, and every reason to laugh together.</p></div>
+    <div class="rituals">
+      <div class="ritual">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="9" fill="none" stroke="#e9c773" stroke-width="2"/><g stroke="#e9c773" stroke-width="2"><path d="M22 3v7M22 34v7M3 22h7M34 22h7M8.5 8.5l5 5M30.5 30.5l5 5M35.5 8.5l-5 5M13.5 30.5l-5 5"/></g></svg>
+        <div class="when">Sasthi</div><h3>Bodhon<span class="bn">বোধন</span></h3>
+        <p>The goddess is invited home. Children crowd to the front for the first glimpse of her face.</p>
+      </div>
+      <div class="ritual">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><path d="M22 6c6 7 6 17 0 25-6-8-6-18 0-25z" fill="#e9c773"/><path d="M22 31c-8-1-14-6-16-15 8 1 14 6 16 15zM22 31c8-1 14-6 16-15-8 1-14 6-16 15z" fill="none" stroke="#e9c773" stroke-width="2"/><path d="M10 38h24" stroke="#e9c773" stroke-width="2"/></svg>
+        <div class="when">Every morning</div><h3>Pushpanjali<span class="bn">অঞ্জলি</span></h3>
+        <p>Flowers and bel leaves in cupped hands, mantras repeated after the priest, then a toss of petals toward Maa.</p>
+      </div>
+      <div class="ritual">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><path d="M6 22h32c-1 9-8 15-16 15S7 31 6 22z" fill="none" stroke="#e9c773" stroke-width="2"/><path d="M14 16c0-3 3-3 3-6M22 16c0-3 3-3 3-6M30 16c0-3 3-3 3-6" stroke="#e9c773" stroke-width="2" fill="none"/></svg>
+        <div class="when">After Anjali</div><h3>Bhog<span class="bn">ভোগ</span></h3>
+        <p>Khichuri, labra, beguni and payesh, shared on long tables. Nobody leaves hungry.</p>
+      </div>
+      <div class="ritual">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><g fill="#e9c773"><circle cx="22" cy="10" r="3"/><circle cx="10" cy="22" r="3"/><circle cx="34" cy="22" r="3"/><circle cx="14" cy="33" r="3"/><circle cx="30" cy="33" r="3"/></g><circle cx="22" cy="22" r="4" fill="none" stroke="#e9c773" stroke-width="2"/></svg>
+        <div class="when">Ashtami</div><h3>Kumari &amp; Sandhi<span class="bn">সন্ধি পূজা</span></h3>
+        <p>A young girl is worshipped as the goddess. At the meeting of Ashtami and Navami, 108 lamps are lit and 108 lotuses offered.</p>
+      </div>
+      <div class="ritual">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><path d="M14 28h16l-3 9H17z" fill="none" stroke="#e9c773" stroke-width="2"/><path d="M18 24c-3-4 3-6 0-10M24 24c-3-4 3-6 0-10M29 22c-2-3 2-5 0-8" stroke="#e9c773" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        <div class="when">Evenings</div><h3>Dhunuchi naach<span class="bn">ধুনুচি নাচ</span></h3>
+        <p>Clay burners of smoking coconut husk and dhuno, held high and swung to the beat of the dhak.</p>
+      </div>
+      <div class="ritual">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="20" r="11" fill="none" stroke="#e9c773" stroke-width="2"/><circle cx="22" cy="20" r="3" fill="#e9c773"/><path d="M12 38h20" stroke="#e9c773" stroke-width="2"/></svg>
+        <div class="when">Navami</div><h3>Hom &amp; Sindoor Khela<span class="bn">সিঁদুর খেলা</span></h3>
+        <p>The sacred fire, then married women smear sindoor on Maa and on each other, faces red and laughing, before the goodbye.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dhak-sec" id="dhak">
+  <div class="wrap dhak-grid">
+    <div class="dhak-copy">
+      <span class="sec-head" style="text-align:left;margin:0"><span class="bn">ঢাকের তালে</span></span>
+      <h2>The sound of Pujo</h2>
+      <p>No Pujo begins until the dhak starts. The dhaki carries the big barrel drum on a shoulder strap, its top crowned with white kash-phool feathers, and plays it with two thin sticks. Beside him, the kashor, a flat bronze plate struck with a stick, keeps a bright, steady clang under every beat.</p>
+      <p>The dhak sets the pace for Aarati and drives the Dhunuchi naach until the room is full of smoke and laughter.</p>
+      <div class="listen">
+        <span class="listen-k">Hear real dhakis</span>
+        <a href="https://freesound.org/people/AnneshaGhosh/sounds/592301/" target="_blank" rel="noopener">Dhaak beats recorded in Kolkata ↗</a>
+        <a href="https://en.wikipedia.org/wiki/File:Durga_Puja_Dhak_Dhol.ogg" target="_blank" rel="noopener">Durga Puja dhak, Wikimedia Commons ↗</a>
+      </div>
+    </div>
+    <figure class="dhak-pad">
+      <svg class="dhak-art" viewBox="0 0 320 240" role="img" aria-label="Illustration of a dhak drum crowned with kash flower feathers">
+        <g fill="#e9c773"><path d="M60 20c-4 14 2 28 10 36" stroke="#c8902a" stroke-width="3" fill="none"/><path d="M48 6c10 2 18 10 22 22-12-2-20-10-22-22zM62 2c8 6 12 16 10 28-8-8-12-18-10-28zM40 18c12-2 22 4 28 14-12 2-22-4-28-14z"/></g>
+        <ellipse cx="80" cy="130" rx="38" ry="74" fill="#7c0a10" stroke="#c8902a" stroke-width="5"/>
+        <ellipse cx="80" cy="130" rx="26" ry="58" fill="#f5e7c4"/>
+        <path d="M80 56h170M80 204h170" stroke="#c8902a" stroke-width="5"/>
+        <rect x="80" y="56" width="170" height="148" fill="#b3121b"/>
+        <g stroke="#e9c773" stroke-width="2.5"><path d="M95 58l30 144M125 58l30 144M155 58l30 144M185 58l30 144M215 58l30 144"/><path d="M95 202l30-144M125 202l30-144M155 202l30-144M185 202l30-144M215 202l30-144" opacity=".55"/></g>
+        <ellipse cx="250" cy="130" rx="38" ry="74" fill="#7c0a10" stroke="#c8902a" stroke-width="5"/>
+        <ellipse cx="250" cy="130" rx="26" ry="58" fill="#f5e7c4"/>
+        <path d="M60 210c60 24 150 24 210 0" stroke="#f29a0f" stroke-width="4" fill="none" stroke-dasharray="2 9" stroke-linecap="round"/>
+      </svg>
+      <figcaption>ঢাক · Dhak &nbsp;&amp;&nbsp; কাঁসর · Kashor</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="know" id="know">
+  <div class="wrap">
+    <div class="sec-head"><span class="bn">জেনে রাখুন</span><h2>Good to know</h2></div>
+    <ul class="know-list">
+      <li><span><b>Come for Anjali.</b> Morning worship runs 9:30 to 11:30 AM. Many devotees keep a light fast until they have offered Anjali.</span></li>
+      <li><span><b>Dress for the festival.</b> Saris, panjabis and kurtas are part of the joy. Ashtami is the day for your best.</span></li>
+      <li><span><b>Bring the whole family.</b> Children, grandparents and first-timers are all welcome, Bengali or not.</span></li>
+      <li><span><b>Sindoor Khela on Navami.</b> Married women traditionally join; bring a sari you don't mind turning red.</span></li>
+      <li><span><b>Ashtami evening is special.</b> Kumari Puja and Sandhi Puja follow the 5:30 PM evening start.</span></li>
+      <li><span><b>Questions?</b> Call the Roy Chowdhury family at 604-763-4820.</span></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="farewell">আসছে বছর আবার হবে</div>
+  <div class="farewell-tr">Asche bochor abar hobe. She will come again next year.</div>
+  <p class="small">Hosted with love by Anita Roy Chowdhury and Family · Maple Ridge, BC · 19th year</p>
+</footer>
+<div class="border" aria-hidden="true"></div>
+
+<script>
+(function(){
+  // Countdown to Maha Sasthi, 4:30 PM Pacific (PDT, UTC-7) on Oct 16, 2026
+  const start = Date.parse("2026-10-16T16:30:00-07:00");
+  const end = Date.parse("2026-10-20T00:00:00-07:00");
+  const el = id => document.getElementById(id);
+  const pad = n => String(n).padStart(2,"0");
+  function tick(){
+    const now = Date.now(), diff = start - now;
+    const box = el("countdown");
+    if (diff <= 0){
+      box.innerHTML = now < end
+        ? '<div class="cd-live">Joy Maa Durga! The Puja is on now.</div>'
+        : '<div class="cd-live">Thank you for celebrating with us. Asche bochor abar hobe!</div>';
+      return false;
+    }
+    const s = Math.floor(diff/1000);
+    el("cd-d").textContent = Math.floor(s/86400);
+    el("cd-h").textContent = pad(Math.floor(s%86400/3600));
+    el("cd-m").textContent = pad(Math.floor(s%3600/60));
+    el("cd-s").textContent = pad(s%60);
+    return true;
+  }
+  if (tick()) { const t = setInterval(()=>{ if(!tick()) clearInterval(t); },1000); }
+
+  // Mark today / past days (by Pacific date)
+  const todayPT = new Intl.DateTimeFormat("en-CA",{timeZone:"America/Vancouver"}).format(new Date());
+  document.querySelectorAll(".day").forEach(d=>{
+    if (d.dataset.date === todayPT) d.classList.add("today");
+    else if (d.dataset.date < todayPT) d.classList.add("past");
+  });
+
+  // Copy phone
+  el("copyBtn").addEventListener("click", ()=>{
+    const txt = el("phone").textContent;
+    const done = m => { el("copied").textContent = m; setTimeout(()=>el("copied").textContent="",2200); };
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(()=>done("Copied"),()=>select());
+    } else select();
+    function select(){ const r=document.createRange(); r.selectNodeContents(el("phone")); const s=getSelection(); s.removeAllRanges(); s.addRange(r); done("Selected, press copy"); }
+  });
+
+  // Falling marigold petals
+  const cv = el("petals");
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches || !cv.getContext) return;
+  const x = cv.getContext("2d"); let W,H; const P=[];
+  function size(){ W=cv.width=innerWidth*devicePixelRatio; H=cv.height=innerHeight*devicePixelRatio; cv.style.width=innerWidth+"px"; cv.style.height=innerHeight+"px"; }
+  size(); addEventListener("resize", size);
+  const cols=["#f29a0f","#e4560f","#ffc23d","#b3121b"];
+  const N = innerWidth<600?14:24;
+  for(let i=0;i<N;i++) P.push({x:Math.random()*W,y:Math.random()*H,r:(4+Math.random()*5)*devicePixelRatio,v:(.25+Math.random()*.5)*devicePixelRatio,a:Math.random()*6,s:.01+Math.random()*.02,c:cols[i%4]});
+  (function loop(){
+    x.clearRect(0,0,W,H);
+    for(const p of P){
+      p.y+=p.v; p.a+=p.s; p.x+=Math.sin(p.a)*.6*devicePixelRatio;
+      if(p.y>H+20){p.y=-20;p.x=Math.random()*W;}
+      x.save(); x.translate(p.x,p.y); x.rotate(p.a); x.globalAlpha=.55; x.fillStyle=p.c;
+      x.beginPath(); x.ellipse(0,0,p.r,p.r*.55,0,0,Math.PI*2); x.fill(); x.restore();
+    }
+    requestAnimationFrame(loop);
+  })();
+})();
+</script>
+</body>
+</html>
